@@ -18,6 +18,17 @@ header {
     flex-direction: column;
 }
 
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-link-text {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
 .hero-logo-text {
     font-size: 24px;
     color: #F9FAF8;
