@@ -36,15 +36,17 @@ header,
     font-size: 48px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
- 
-
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
 }
 
 
 
-
+.hero-image {
+    width: 300px;
+    margin-left: 6rem;
+}
 
 .hero-secondary-text,
 .header-link-text,
@@ -64,6 +66,12 @@ li {
     font-size: 18px;
 }
 
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
 button,
 .action { 
     background-color: #3882F6;
@@ -72,7 +80,6 @@ button,
 
 .main-container {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     
 }
