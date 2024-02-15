@@ -10,6 +10,7 @@ body {
 
 header,
 .footer {
+    
     background-color: #1F2937;
 }
 
@@ -25,10 +26,6 @@ header,
     align-items: center;
 }
 
-/*.header-link-text {
-    justify-content: space-between;
-    gap: 32px;
-}*/
 
 
 
@@ -70,19 +67,30 @@ button {
     border: none;
     border-radius: 4px;
     padding: 4px 12px;
-}
-
-button,
-.action { 
     background-color: #3882F6;
     color: #E5E7EB;
+    width: 100px;
 }
 
-/*.main-container {
+.sign-up {
+    border: 2px solid white;
+    margin: 32px;
+
+
+
+}
+
+.main-container {
     display: flex;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
+  
     
-}*/
+
+    
+}
 
 .random-info {
     font-size: 36px;
@@ -97,19 +105,68 @@ button,
 
 img {
     width: 200px;
+    border: 3px solid blue;
 }
 
-ul.info-list {
-    display: flex;
-}
+
 
 
 
 .quote {
     background-color: #E5E7EB;
-    color: #1F2937
-    font-size: 36px;
-    font-style: italic;
-    
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center; 
+    padding: 24px;  
 }
 
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+.attribution {
+    font-weight: 800;
+
+}
+
+/* LOOK UP HOW TO STYLE THIS BOX W/BUTTON */
+.cta {
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 700px;
+    height: 70px;
+    margin: 20px;
+
+}
+
+.action {
+    font-weight: 900;
+    font-size: 18px;
+   
+}
+
+.action-subhed {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+.footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 16px;
+
+}
