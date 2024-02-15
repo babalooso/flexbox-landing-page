@@ -89,9 +89,21 @@ button,
     font-weight: 900;
     color: #1F2937;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px;
 }
+
+img {
+    width: 200px;
+}
+
+ul.info-list {
+    display: flex;
+}
+
+
 
 .quote {
     background-color: #E5E7EB;
