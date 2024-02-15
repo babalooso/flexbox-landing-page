@@ -5,6 +5,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 
 }
 
@@ -43,6 +44,7 @@ header,
 .hero-image {
     width: 300px;
     margin-left: 6rem;
+    border: none;
 }
 
 .hero-secondary-text,
@@ -97,8 +99,8 @@ button {
     font-weight: 900;
     color: #1F2937;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     padding: 24px;
 }
@@ -108,6 +110,13 @@ img {
     border: 3px solid blue;
 }
 
+.info-list li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 16px;
+    
+}
 
 
 
